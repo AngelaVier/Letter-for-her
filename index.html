@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A letter for Kimb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="envelope-container" onclick="openEnvelope()">
+    <div class="envelope" id="envelope">
+      <div class="flap"></div>
+      <div class="letter" id="letter">
+        <div class="letter-content">
+          <!-- <p>Dear You,</p>
+          <p>I like you. </p>
+          <p>I like you. </p>
+          <p>I like you. </p>
+          <p>- Vier</p> -->
+
+          <div class="salutation">Hi Kimb,</div>
+          <p>I like you. </p>
+          <p>I like you. </p>
+          <p>I like you. </p>
+          <div class="closing"> - Vier 💌</div>
+          <button class="close-btn" onclick="closeEnvelope(event)">💌</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background music -->
+  <audio id="bg-music" loop>
+    <source src="Love Is.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
