@@ -211,7 +211,7 @@ body {
   /* 📱 Mobile Styles */
   @media screen and (max-width: 400px) {
     .form{
-        padding: 15px 15px;
+        padding: 30px 30px;
     }
     
 }
